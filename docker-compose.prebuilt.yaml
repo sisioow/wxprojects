@@ -1,0 +1,19 @@
+# Use prebuilt images to avoid long local builds
+services:
+  api:
+    image: ghcr.io/firecrawl/firecrawl:latest
+    build: !reset null
+    cpus: 2.0
+    mem_limit: 4G
+    memswap_limit: 4G
+
+  playwright-service:
+    image: ghcr.io/firecrawl/playwright-service:latest
+    build: !reset null
+    cpus: 1.0
+    mem_limit: 2G
+    memswap_limit: 2G
+
+  nuq-postgres:
+    image: ghcr.io/firecrawl/nuq-postgres:latest
+    build: !reset null

@@ -1,0 +1,17 @@
+{
+  "name": "firecrawl-wx-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node scripts/keyless-scrape.mjs",
+    "demo:local": "FIRECRAWL_API_URL=http://127.0.0.1:3002 node scripts/keyless-scrape.mjs",
+    "local:server": "node scripts/local-scrape-server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "selfhost:up": "docker compose -f docker-compose.yaml -f docker-compose.prebuilt.yaml up -d",
+    "selfhost:down": "docker compose -f docker-compose.yaml -f docker-compose.prebuilt.yaml down",
+    "selfhost:demo": "FIRECRAWL_API_URL=http://127.0.0.1:3002 node scripts/keyless-scrape.mjs"
+  },
+  "dependencies": {
+    "html-to-text": "^10.0.0"
+  }
+}
