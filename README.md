@@ -6,8 +6,10 @@
 | --- | --- |
 | [`iosuiskills`](https://github.com/sisioow/wxprojects/tree/iosuiskills) | Apple 风格 Skill（emilkowalski/skills）+ 演示项目 |
 | [`insprira`](https://github.com/sisioow/wxprojects/tree/insprira) | 灵感熔炉：全平台自媒体工作台 |
+| [`firecrawl`](https://github.com/sisioow/wxprojects/tree/firecrawl) | Firecrawl 网页抓取（Keyless / 自托管演示） |
 
 ```bash
 git clone -b iosuiskills https://github.com/sisioow/wxprojects.git
 git clone -b insprira https://github.com/sisioow/wxprojects.git
+git clone -b firecrawl https://github.com/sisioow/wxprojects.git
 ```
