@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "cangjie-skill": {
+      "source": "kangarooking/cangjie-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "3fdbb3bd08eb0f7a2fa43bf302bb792d08b342c03edf819f7a2a53e137d897b3"
+    }
+  }
+}
