@@ -1,0 +1,51 @@
+{
+  "skill": "inversion-thinking",
+  "version": "0.1.0",
+  "source_book": "迷你方法论 — Demo Author",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我要不要接这个新项目，列了一堆好处但还是很纠结",
+      "expected_behavior": "应激活 inversion-thinking，反问最坏情况",
+      "notes": "正面决策纠结"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "这个方案看起来不错，但我担心风险，想用逆向思维压一遍",
+      "expected_behavior": "应激活 inversion-thinking",
+      "notes": "显式逆向"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "决策卡住了：两边都有道理，不知道要不要选 A",
+      "expected_behavior": "应激活 inversion-thinking",
+      "notes": "决策卡住"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下这个 API 的参数说明",
+      "expected_behavior": "不应激活本 skill，纯信息查询",
+      "notes": "诱饵：非决策"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "请按 checklist 帮我做周报汇总，不要做决策分析",
+      "expected_behavior": "不应激活本 skill，应走写作/汇总类 skill",
+      "notes": "跨 skill 混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "晚饭吃什么比较好",
+      "expected_behavior": "不应调用（日常琐事，虽字面像选择）",
+      "notes": "边界：严肃决策 vs 日常"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

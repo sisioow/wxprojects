@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "cangjie-skill": {
+      "source": "/Users/shihongwei/wxprojects/cangjie-skill",
+      "sourceType": "local",
+      "computedHash": "dbd8e5e9e31de4fff14d65e2e2c071ae52a38b091638311c98103507128de81d"
+    }
+  }
+}

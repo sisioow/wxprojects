@@ -1,0 +1,11 @@
+{
+  "name": "cangjie-skill-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-pipeline.mjs",
+    "test:triggers": "node scripts/run-trigger-tests.mjs",
+    "install:skills": "node scripts/install-distilled-skills.mjs",
+    "test": "npm run validate && npm run test:triggers && npm run install:skills"
+  }
+}

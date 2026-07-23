@@ -1,0 +1,26 @@
+{
+  "skill": "reversibility-ladder",
+  "cases": [
+    {
+      "id": "positive-switch",
+      "prompt": "要不要现在全面切换供应商？",
+      "expect_trigger": true
+    },
+    {
+      "id": "positive-pace",
+      "prompt": "这件事该快推还是再调研一个月？",
+      "expect_trigger": true
+    },
+    {
+      "id": "decoy-poem",
+      "prompt": "写一首关于春天的诗。",
+      "expect_trigger": false
+    },
+    {
+      "id": "cross-skill-constraint",
+      "prompt": "先帮我列出这个项目的硬性限制条件。",
+      "expect_trigger": false,
+      "note": "更应触发 constraint-first-decision"
+    }
+  ]
+}
