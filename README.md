@@ -9,5 +9,5 @@
 
 ```bash
 git clone -b iosuiskills https://github.com/sisioow/wxprojects.git
-git clone -b inspira https://github.com/sisioow/wxprojects.git
+git clone -b insprira https://github.com/sisioow/wxprojects.git
 ```
