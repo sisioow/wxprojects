@@ -1,0 +1,26 @@
+{
+  "skill": "two-track-evidence",
+  "cases": [
+    {
+      "id": "positive-budget",
+      "prompt": "数据看起来不错，准备加倍预算，你怎么看？",
+      "expect_trigger": true
+    },
+    {
+      "id": "positive-uneasy",
+      "prompt": "指标很好但我总觉得不对劲。",
+      "expect_trigger": true
+    },
+    {
+      "id": "decoy-weather",
+      "prompt": "今天北京天气怎么样？",
+      "expect_trigger": false
+    },
+    {
+      "id": "cross-skill-options",
+      "prompt": "我们有很多选项不知道选哪个。",
+      "expect_trigger": false,
+      "note": "更应触发 constraint-first-decision"
+    }
+  ]
+}
