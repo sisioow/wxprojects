@@ -1,3 +1,9 @@
+> **本分支用途（wxprojects）**：本仓独立分支，便于识别与按分支克隆。
+>
+> ```bash
+> git clone -b cangjie-skill-demo https://github.com/sisioow/wxprojects.git
+> ```
+
 # cangjie-skill 测试项目
 
 用一篇**短样书**跑通 [cangjie-skill](https://github.com/kangarooking/cangjie-skill) 的 RIA-TV++ 流水线，并做结构 + 触发意图校验。
