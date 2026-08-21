@@ -1,3 +1,9 @@
+> **本分支用途（wxprojects）**：本仓独立分支，便于识别与按分支克隆。
+>
+> ```bash
+> git clone -b insprira https://github.com/sisioow/wxprojects.git
+> ```
+
 # 灵感熔炉
 
 本地自媒体工作台。
